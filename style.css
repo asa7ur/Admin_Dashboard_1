@@ -592,7 +592,7 @@ main .recent-orders a{
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .container{
         width: 100%;
         grid-template-columns: 1fr;
@@ -608,13 +608,13 @@ main .recent-orders a{
         height: 100vh;
         left: -100%;
         display: none;
-        animation: showMenu 0.4s ease forward;
+        animation: showMenu 0.4s ease forwards;
     }
 
-    @keyframes showMenu{
-        to{
-            left: 0;
-        }
+    @keyframes showMenu {
+       to{
+        left: 0;
+       } 
     }
 
     aside .logo{
